@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+###
 def plot_activation(img):
     # 使用预训练模型对图像进行预测
     pred = model.predict(img[np.newaxis, :, :, :])
